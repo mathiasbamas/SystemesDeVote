@@ -5,3 +5,12 @@ CONFIG -= qt
 
 SOURCES += \
         main.cpp
+
+HEADERS += \
+    MethodeBorda.h \
+    ScrutinUninominal.h \
+    SystemeFrancais.h \
+    VoteParValeur.h
+
+DISTFILES += \
+    votants.txt
