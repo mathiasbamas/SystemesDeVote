@@ -4,6 +4,4 @@
 
 using namespace std;
 
-
-
 #endif // SCRUTINUNINOMINAL_H
