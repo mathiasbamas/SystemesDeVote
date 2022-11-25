@@ -2,7 +2,7 @@
 
 ## Telecharger le fichier 
 
-```git clone mathiasbamas/SystemesDeVote```
+```git clone https://github.com/mathiasbamas/SystemesDeVote```
 
 ## Lancer les systemes de vote
 
