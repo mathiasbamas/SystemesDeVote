@@ -1,0 +1,339 @@
+ALI
+Mdallah
+2 0
+AMETTLER
+Thibault
+2 0
+ATROKHOV
+Alexis
+2 0
+ATTAR
+Mohamed-Nadir
+0 1
+AVENA
+Clement
+3 1
+BACHAR
+Bilal
+2 1
+BADJOUDJ 
+Hana
+2 1
+BAMAS
+Mathias
+2 0
+BARROSO YELMO
+Mathias
+2 0
+BARTE
+Antonin
+2 1
+BAUDOUY
+Ugo
+2 0
+BEAUQUIER
+Quentin
+2 1
+BEDDIAF
+Miloud
+2 1
+BEDOS
+Enzo
+3 0
+BELABBAS
+Rayane
+2 0
+BENDJEDDOU
+Rayan
+2 1
+BENLAKHLEF
+Medhi
+2 0
+BERGERON
+Alexandre
+2 1
+BIHI
+Ayoub
+2 0
+BOINAALI
+Chris
+3 0
+BOSSO
+Gavril
+2 1
+BOUGEARD
+Bastien
+2 0
+BOUT
+Thomas
+2 1
+BOUYEDA
+Remi
+2 0
+BRADAI
+Chiheb
+2 0
+BRAHMI
+Moundir
+3 0
+BRUNET
+Ronan
+2 1
+CANO
+Vincent
+3 0
+CARON
+Pierrick
+3 1
+CARVAJAL
+Tom
+2 1
+CHOPARD
+William
+2 1
+CLEMENT
+Amadeus
+2 0
+COMBELONGE
+Enzo
+2 0
+CRESPIN
+Alexandre
+2 0
+DA SILVA SANTOS
+Lucas
+2 1
+DAW
+Charles
+2 1
+DE ANGELI
+Adam
+2 1
+DE SOUSA GUEDES
+Raphael
+2 0
+DEGANO
+Matteo
+2 0
+DELIN
+Alexis
+2 1
+DELIN
+Maxime
+3 1
+DELMAS
+Mathis
+2 1
+DIOP
+Sokhna
+3 1
+DITLECADET
+Michael
+0 0
+DOLCE
+Lino
+1 0
+DUROISIN
+Tom
+2 0
+ESSALHI
+Ayoub
+2 1
+EVEN
+Tom
+2 0
+FALFERI
+Gabin
+2 0
+FARDOUX
+Theo
+1 0
+FERRANDO
+Alexis
+1 0
+FERRIER
+Killian
+0 1
+FLORIS-MIALHE
+Axel
+2 0
+FREDDI
+Logan
+2 0
+GINER
+Leo
+2 0
+GIORDANO
+Yoann
+2 0
+GIRODENGO
+Camille
+2 0
+GODINAUD
+Maïlys
+0 1
+GOUACHE
+Nathan
+1 0
+HARICOT
+Pierre
+2 0
+HENRICY
+Noah
+3 1
+HOSPITAL
+Jules
+1 1
+HOURLAY
+Enzo
+1 0
+IKHERBANE
+Sami
+2 0
+JAURAS
+Maxime
+2 0
+KHADRAOUI
+Sabri
+0 0
+KUZMENKO
+Yehor
+1 0
+LARTIGAUD
+Elliot
+3 1
+LEBRUN
+Noa
+0 1
+LEPERLIER
+Mael
+0 1
+LEROUGE
+Robin
+1 1
+LEROUX
+Mathieu
+2 1
+LESTRELIN
+Valentin
+3 0
+LIETO
+Myke
+1 0
+LIMOSANI
+Francesco
+0 0
+LOUARN
+Mathis
+3 0
+MAGNAN
+Lukas
+1 0
+MAOULIDA ATTOUMANI
+Yazid-Raoul
+2 1
+MARIE
+Clement
+2 0
+MARTINEZ
+Romain
+2 0
+MESLI
+Mohamed
+2 0
+MISIEK
+Romain
+2 1
+MOMY
+Aurore
+0 1
+MONTANARD
+Hugo
+2 1
+N' GUYEN
+Lucas
+1 1
+NARDI
+Fabio
+0 0
+OGER
+Leo
+2 1
+PIOCT
+Rayan
+1 0
+PONOMARENKO
+Edouard
+2 1
+PORTELLI
+Angelo
+2 1
+POSSENTI
+Alexandre
+2 1
+RAMILSON
+Lorys
+2 0
+RIPOCHE
+Sarah
+2 0
+ROSSI
+Valentin
+1 1
+ROUBAUD
+Axel
+0 1
+ROUGE
+Gabriel
+1 1
+ROUSSET
+Antonin
+3 1
+RUGIERO
+Tymeo
+1 1
+SAFRAN
+Yoni
+0 1
+SALA-MOCHIZUKI
+Yuki
+3 1
+SALOMON
+Clement
+1 1
+SANTOS
+Audran
+3 1
+SCIACCA
+Matteo
+1 1
+SEJOURNE
+Victor
+3 1
+SOLLE
+Mathis
+2 1
+SOUDANI REGUIG
+Lyes-Yacine
+0 1
+STROPPIANA
+Damien
+1 0
+TAMARIN
+Maxime
+3 1
+THIEL
+Maxime
+0 0
+TORRES
+Julien
+0 0
+VINCENT
+Erwan
+2 0
+ZAINA
+Elias
+2 0
+ZOPPI
+Lucie
+1 0
