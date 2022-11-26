@@ -3,8 +3,7 @@
 
 using namespace std;
 
-/* BAMAS - BIHI - CHOPARD - BERGERON - ALI - SAE R1.01
- * Le vote uninominal permet aux votants de voté pour une personne
+/* Le vote uninominal permet aux votants de voté pour une personne
  * La personne qui a le plus de voix l'emporte */
 
 vector<string> listeJeux = {"CSGO", "StreetFighter II", "Civilisation VI", "Mario Kart"};
@@ -32,6 +31,10 @@ void voteUninominal(vector<unsigned> listeVote)
     vector<unsigned> resultats (listeJeux.size());
     for(unsigned i = 0; i < listeVote.size(); ++i) ++resultats[listeVote[i]];
 
+    cout << "Resulat : " << endl << endl;
+    for(unsigned i = 0; i < resultats.size(); ++i){
+        cout << listeJeux[i] << " " << resultats[i] << " voix" << endl;
+    }
     /* Calcul du gagnant(s) */
     vector<unsigned> gagnants{0};
     for(unsigned i = 1 ; i < resultats.size(); ++i)
@@ -47,11 +50,11 @@ void voteUninominal(vector<unsigned> listeVote)
     /* Affichage Gagnants*/
     if(gagnants.size() == 1)
     {
-        cout << "Gagnant : " << listeJeux[gagnants[0]] << " ";
+        cout << endl << "Gagnant : " << listeJeux[gagnants[0]] << " ";
         cout << 100*resultats[gagnants[0]]/listeVote.size() << "%" << endl;
     }
     else{
-        cout << "Gagnants par égalité" << endl;
+        cout << endl << "Gagnants par égalité" << endl;
         for(unsigned i = 0; i < gagnants.size(); ++i)
         {
             cout << " - " << listeJeux[i] << " " << 100*resultats[gagnants[i]]/listeVote.size() << "%" <<  endl;
