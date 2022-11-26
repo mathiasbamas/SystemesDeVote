@@ -3,8 +3,7 @@
 
 using namespace std;
 
-/* BAMAS - BIHI - CHOPARD - BERGERON - ALI - SAE R1.01
- * La methode Borda demande a chaque de votant de faire un classement des choix selon leur préferences
+/* La methode Borda demande a chaque de votant de faire un classement des choix selon leur préferences
  * Pour n candidat le permier reçoit n points le deuxième n-1... */
 
 vector<string> listeJeux{"CSGO", "Street Fighter II", "Civilisation VI", "Mario Kart"};
@@ -64,16 +63,19 @@ vector<unsigned> compteResultat(vector<vector<unsigned>> listeNotes){
 /* La fonction trouve gagnant renvoie dans le flux de sortie le ou les gagnants */
 void trouveGagnant(vector<unsigned> resultat){
     vector<unsigned> gagnants{0};
-
+    cout << "Resultat :" << endl << endl;
+    for(unsigned i = 0; i < resultat.size(); ++i){
+        cout << listeJeux[i] << " " << resultat[i] << " Points" << endl;
+    }
     /* Trouve gagnant(s) */
     for(unsigned i = 1; i < resultat.size(); ++i)
-    {
+    {    
         if(resultat[i] > resultat[gagnants[0]]) gagnants.clear();
         if(resultat[i] >= resultat[gagnants[0]]) gagnants.push_back(i);
     }
 
     /* Affichage gagnants */
-    cout << "Gagnant(s) :" << endl;
+    cout << endl << "Gagnant(s) :" << endl;
     for(auto indiceJeu : gagnants)
     {
         cout << "- " << listeJeux[indiceJeu] << endl;
