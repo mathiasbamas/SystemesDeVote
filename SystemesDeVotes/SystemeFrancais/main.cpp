@@ -4,7 +4,8 @@
 
 using namespace std;
 
-/* L'election a la française consiste a voté un premier tour pour elire un candidat
+/* BAMAS - BIHI - CHOPARD - BERGERON - ALI - SAE R1.01
+ * L'election a la française consiste a voté un premier tour pour elire un candidat
  * si un candidat arrive à la majoritée absolue (> 50%) il est elu directement sinon un
  * second tour a lieu entre les 2 premiers candidats */
 
