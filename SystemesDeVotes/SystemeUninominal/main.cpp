@@ -3,7 +3,8 @@
 
 using namespace std;
 
-/* Le vote uninominal permet aux votants de voté pour une personne
+/* BAMAS - BIHI - CHOPARD - BERGERON - ALI - SAE R1.01
+ * Le vote uninominal permet aux votants de voté pour une personne
  * La personne qui a le plus de voix l'emporte */
 
 vector<string> listeJeux = {"CSGO", "StreetFighter II", "Civilisation VI", "Mario Kart"};
