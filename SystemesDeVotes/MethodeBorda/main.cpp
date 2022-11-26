@@ -3,7 +3,8 @@
 
 using namespace std;
 
-/* La methode Borda demande a chaque de votant de faire un classement des choix selon leur préferences
+/* BAMAS - BIHI - CHOPARD - BERGERON - ALI - SAE R1.01
+ * La methode Borda demande a chaque de votant de faire un classement des choix selon leur préferences
  * Pour n candidat le permier reçoit n points le deuxième n-1... */
 
 vector<string> listeJeux{"CSGO", "Street Fighter II", "Civilisation VI", "Mario Kart"};
