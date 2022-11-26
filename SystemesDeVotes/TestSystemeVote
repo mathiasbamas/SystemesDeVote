@@ -8,6 +8,7 @@ g++ ./SystemeUninominal/main.cpp -o ./SystemeUninominal/a.out
 
 for i in {1..3}
 do
+	mkdir ./MethodeBorda/FichSortie
 	./MethodeBorda/a.out < ./MethodeBorda/FichEntree/MetBordaEntree"$i".txt > ./MethodeBorda/FichSortie/MetBordaSortie"$i".txt
 	echo "Methode Borda - Test du fichier oracle $i"
 	diff ./MethodeBorda/FichSortie/MetBordaSortie"$i".txt ./MethodeBorda/FichOracle/BordaOracle"$i".txt
@@ -17,6 +18,7 @@ echo
 
 for i in {1..3}
 do
+	mkdir ./SystemeFrancais/FichSortie
 	./SystemeFrancais/a.out < ./SystemeFrancais/FichEntree/SystemeFrancaisEntree"$i".txt > ./SystemeFrancais/FichSortie/SystemeFrancaisSortie"$i".txt
 	echo "Systeme Francais - Test du fichier oracle $i"
 	diff ./SystemeFrancais/FichSortie/SystemeFrancaisSortie"$i".txt ./SystemeFrancais/FichOracle/FrancaisOracle"$i".txt
@@ -26,6 +28,7 @@ echo
 
 for i in {1..3}
 do
+	mkdir ./SystemeParNote/FichSortie
 	./SystemeParNote/a.out < ./SystemeParNote/FichEntree/SysNoteEntree"$i".txt > ./SystemeParNote/FichSortie/SysNoteSortie"$i".txt
 	echo "Systeme par Note - Test du fichier oracle $i"
 	diff ./SystemeParNote/FichSortie/SysNoteSortie"$i".txt ./SystemeParNote/FichOracle/SysNoteOracle"$i".txt
@@ -35,6 +38,7 @@ echo
 
 for i in {1..3}
 do
+	mkdir ./SystemeUninominal/FichSortie
 	./SystemeUninominal/a.out < ./SystemeUninominal/FichEntree/UninominalEntree"$i".txt > ./SystemeUninominal/FichSortie/UninominalSortie"$i".txt
 	echo "Systeme Uninominal - Test du fichier oracle $i"
 	diff ./SystemeUninominal/FichSortie/UninominalSortie"$i".txt ./SystemeUninominal/FichOracle/UninominalOracle"$i".txt
