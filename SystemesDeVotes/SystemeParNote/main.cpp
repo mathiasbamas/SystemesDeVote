@@ -4,8 +4,7 @@
 
 using namespace std;
 
-/* BAMAS - BIHI - CHOPARD - BERGERON - ALI - SAE R1.01
- * Le Systeme par note permet a chaque votant de donner une note sur 20 pour chaque jeu
+/* Le Systeme par note permet a chaque votant de donner une note sur 20 pour chaque jeu
  * Le jeu avec la meilleur moyenne est elu */
 
 vector<string> listeJeu{"CSGO", "Street Fighter II", "Civilisation VI", "Mario Kart"};
@@ -71,6 +70,10 @@ vector<float> moyenneParChoix(vector<vector<unsigned>> listeVote)
 void trouveGagnant(vector<float> moyennes)
 {
     vector<unsigned> gagnants{0};
+    cout << "Resultats :" << endl << endl;
+    for(unsigned i = 0; i < moyennes.size(); ++i){
+        cout << fixed << setprecision(2) << listeJeu[i] << " " << moyennes[i] << endl;
+    }
     for(unsigned i = 1; i < moyennes.size(); ++i)
     {
         if(moyennes[i] > moyennes[gagnants[0]]) gagnants.clear();
@@ -79,7 +82,7 @@ void trouveGagnant(vector<float> moyennes)
 
     /* Affichage gagnant(s)
      * 2 chiffre aprés la virgule avec fixed et setprecision(2) */
-    cout << "Gagnant(s) :" << endl;
+    cout << endl << "Gagnant(s) :" << endl;
     for(auto indiceJeu : gagnants)  cout << fixed << setprecision(2) << " - " << listeJeu[indiceJeu] << " (" << moyennes[indiceJeu] << ")" << endl;
 }
 
