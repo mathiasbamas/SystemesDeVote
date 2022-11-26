@@ -4,7 +4,8 @@
 
 using namespace std;
 
-/* Le Systeme par note permet a chaque votant de donner une note sur 20 pour chaque jeu
+/* BAMAS - BIHI - CHOPARD - BERGERON - ALI - SAE R1.01
+ * Le Systeme par note permet a chaque votant de donner une note sur 20 pour chaque jeu
  * Le jeu avec la meilleur moyenne est elu */
 
 vector<string> listeJeu{"CSGO", "Street Fighter II", "Civilisation VI", "Mario Kart"};
